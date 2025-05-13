@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-Divergence_Pikachu" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Divergence and Pikachu</title>
+
+  <p> Text of section. </p>
+
+  <objectives><title>Learning Objectives</title>
+
+
+    <p>
+        In this lab we will:
+    </p>
+
+    <ol>
+        <li>
+            <p>
+                The first objective
+            </p>
+        </li>
+        <li>
+            <p>
+                The second objective
+            </p>
+        </li>
+            <li>
+            <p>
+                The third objective
+            </p>
+        </li>
+    </ol>
+
+</objectives>
+
+</section>

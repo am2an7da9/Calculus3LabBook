@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-Curl_WhirlpoolIslands" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Curl and the Whirlpol Islands</title>
+
+
+
+  <objectives><title>Learning Objectives</title>
+
+
+    <p>
+        In this lab we will:
+    </p>
+
+    <ol>
+        <li>
+            <p>
+                Use an LLM to create a vector field which models 
+                ocean currents with whirlpools at certain locations. 
+            </p>
+        </li>
+        <li>
+            <p>
+                Calculate the curl of the currents at different locations.
+            </p>
+        </li>
+            <li>
+            <p>
+                Understand of the meaning of the values of the curl 
+                in the context of the model.
+            </p>
+        </li>
+    </ol>
+
+</objectives>
+
+
+
+</section>

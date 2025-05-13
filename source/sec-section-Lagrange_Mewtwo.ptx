@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-Lagrange_Mewtwo" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lagrange Multipliers and Mewtwo</title>
+
+<objectives><title>Learning Objectives</title>
+
+
+    <p>
+        In this lab we will:
+    </p>
+
+    <ol>
+        <li>
+            <p>
+                The first objective
+            </p>
+        </li>
+        <li>
+            <p>
+                The second objective
+            </p>
+        </li>
+            <li>
+            <p>
+                The third objective
+            </p>
+        </li>
+    </ol>
+
+</objectives>
+
+
+
+  <p> Text of section. </p>
+
+</section>

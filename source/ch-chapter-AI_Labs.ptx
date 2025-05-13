@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-AI_Labs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>AI Labs</title>
+
+  <introduction>
+    <p> Here we talk about the goals of the AI Labs and why we do them
+         and all that jazz. </p>
+  </introduction>
+
+  <!-- include sections -->
+   <xi:include href="sec-section-Curl_WhirlpoolIslands.ptx" /> 
+
+  <!-- include sections -->
+   <xi:include href="sec-section-Flux_Charizard.ptx" /> 
+
+  <!-- include sections -->
+   <xi:include href="sec-section-Divergence_Pikachu.ptx" /> 
+
+  <!-- include sections -->
+   <xi:include href="sec-section-Lagrange_Mewtwo.ptx" /> 
+
+</chapter>
