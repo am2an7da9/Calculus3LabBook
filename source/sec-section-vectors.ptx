@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-vectors" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Vectors Activity</title>
+
+  <p> Activity created by Dr. Amanda Harsy. Applets created by Dr. David Nichols and the CalcPlot3D group</p>
+<objectives>
+    <statement>
+        <p>
+            Coming soon!
+        </p>
+    </statement>
+</objectives>
+
+  <p><alert>Problem Set</alert> </p>
+
+ <exercise>
+ <p>
+                When we introduce a third axis, we can divide our space into 8 octants. 
+                For each octant, give an example of a point that solely lies within that octant
+                (no boundary points!) For reference,
+                 <url href="https://davidmathlogic.com/amit/octants.html" visual="this"/>
+                 can be used to visualize the different octants and you can check your work using
+                 <url href="http://www.math.uconn.edu/~dnichols/amit/pointplotwithinput.html" 
+                 visual="this applet"/>. 
+</p>
+</exercise>
+
+<exercise>
+    <p>  Use <url href="https://davidmathlogic.com/amit/vectoraddition.html" visual="this applet"/> to visualize 
+                    adding the vectors  <m>\lt -7, 5 \gt </m> and <m> \lt 4, 3 \gt </m>. 
+                    Which property is <url href="https://davidmathlogic.com/amit/vectorcommutivity.html" 
+                    visual="this applet" /> 
+                     demonstrating about vector addition? What other properties does vector addition have? 
+ </p>
+</exercise> 
+
+<exercise>
+    <statement>
+
+    <p>
+        Use <url href=" https://davidmathlogic.com/amit/vectorcomponents.html" visual="this applet" /> to help visualize our vector components. 
+        Draw the vector <m> \lt 3, -4, 5 \gt </m> using the applet and upload your picture to your homework. 
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+         <url href="\href{https://davidmathlogic.com/amit/unitvector.html" visual="This applet" />  
+         provides a nice visualization of the relationship of the unit vector and the process of normalization. 
+         <ol>
+            <li>
+                <p>
+                 Write at least one sentence describing what you notice about 
+                    the relationship between vectors, normalization, and unit vectors demonstrated by this applet. 
+                </p>
+            </li>
+             <li>
+                <p>
+                Use the applet to find a unit vector in the direction of <m> \lt 4,-3,1 \gt </m>.
+                    </p>
+            </li>
+         </ol>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Experiment with <url href=" https://davidmathlogic.com/amit/projections.html" visual="this applet" /> 
+            which visualizes projections. Attach 3 different pictures of projections onto the 
+            same vector <m>\mathbf{a}</m>. What patterns do you see (with respect to direction, length, etc.)?
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+             The following applets demonstrate calculating a dot product and cross product.
+              Calculate the dot product and cross product for <m> \mathbf{u} </m> and <m> \mathbf{v} </m>,
+               <m> \mathbf{u} </m> and <m> \mathbf{w} </m>, <m> \mathbf{v} </m> and <m> \mathbf{w} </m>, 
+               and <m> \mathbf{w}  </m> and  <m> \mathbf{v} </m> for <m> \mathbf{u}= \lt 2, 7, -3 \gt, </m>
+             <m>   \mathbf{v}= \lt 0, -1, -2 \gt, </m> and <m> \mathbf{w}=\lt -1, 1, 6 \gt </m> using the applets:
+                <url href="https://davidmathlogic.com/amit/dotproduct3d" visual="dot product applet" /> and
+                <url href="https://davidmathlogic.com/amit/crossproduct.html" visual="cross product applet" />.
+              What is a property you notice which is true for dot products but not cross products?
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            We can use dot products and cross products to calculate a volume of a parallelepiped. Use the applet to draw the parallelepiped and calculate 
+            its volume using <url href="https://davidmathlogic.com/amit/parallelepiped.html" visual="applet" />.
+        </p>
+    </statement>
+</exercise>
+</section>

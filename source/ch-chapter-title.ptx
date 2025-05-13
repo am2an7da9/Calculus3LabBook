@@ -9,6 +9,8 @@
 
   <!-- include sections -->
   <xi:include href="sec-section-name.ptx" />
+ 
+  <xi:include href="sec-section-vectors.ptx" />
 
   <!-- Vector Functions Activity -->
   <xi:include href="sec-section-Vector-Functions-Activity.ptx" />
