@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-Vector-Functions-Activity" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Vector Functions Activity</title>
+
+  <objectives>
+    <title>Helpful Resources and Steps</title>
+    <introduction>
+        <p>
+            to come...
+        </p>
+    </introduction>
+  </objectives>
+  
+  <exercise>
+    <statement>
+        <p>
+            This <url href="https://davidmathlogic.com/amit/spacecurve.html">applet</url> shows a vector-valued function or space curve. 
+        </p>
+    </statement>
+
+    <task>
+        <statement>
+            <p>
+                Does the curve cross itself? How can you tell or verify?
+            </p>
+            <hint>
+            <p>
+                You can click and rotate the figure! 
+            </p>
+        </hint>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                What does the blue vector represent?
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Use the slider at the bottom of the applet to move <m>t</m> around. Use the slider to <alert>approximate</alert> the value of <m>r(0)</m>. [Note: I am not expecting an exact answer.]
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+</section>
+
+<!-- 
+
+
+
+\section*{Problem Set}
+\begin{enumerate}
+\begin{enumerate}
+    \item  
+\end{enumerate}
+
+\item \href{https://davidmathlogic.com/amit/spacecurvehelix.html}{This applet} shows an example of a helix graph.
+\begin{enumerate}
+    \item As $t$ increases, do we travel up the helix or down the helix? How do you know?
+    \item Adjust one of the functions of $r(t)$ (either $f, g,$ or $h$) to make the helix go in the reverse direction. 
+    \item What components of the vector function create the rotation or circular pattern of the helix?
+    \item Create a vector function that will represent a helix that goes out along the $y$ axis rather than the $z$ axis. 
+\end{enumerate}
+
+\item Given 2 points, we can create a vector function that represents the line segment between them.  \href{https://davidmathlogic.com/amit/linesegment.html}{This applet} visualizes this process. Read the blurb on the applet. Does the order of $r_0$ and $r_1$ matter for the line segment? At what t-value are we at the midpoint of the segment? 
+
+\item \href{https://c3d.libretexts.org/CalcPlot3D/index.html}{CalcPlot3D} is a pretty cool website which has a lot of interesting applications which we will begin to explore in more detail later this semester. We are going to use this site to see some cool vector functions (space curves). 
+
+Here are instructions to get to the example space curves:
+\begin{itemize}
+    \item Go to \href{https://c3d.libretexts.org/CalcPlot3D/index.html}{https://c3d.libretexts.org/CalcPlot3D/index.html} (or google ``calcplot3d''). 
+    \item You will see a generic surface on the website. Go to the 3 white lines in the upper left corner. Click on it and a grey menu will pop up. Click on Examples.
+    \item Click on ``Space Curves."
+    \item Under space curves, you will see a plethora of space curve examples. 
+\end{itemize}
+Questions:
+\begin{enumerate}
+    \item Explore the space curves and animate them and play around with some of the settings. In particular, use the animate button on the left. You can slow down the animation by increasing the number of steps which is a value you can change on the left side of the screen. What do the blue, green, and black arrows represent?
+    \item Pick 2 examples of space curves that seem most interesting to you. Screenshot them and explain why you picked/liked them. 
+\end{enumerate}
+
+
+\item Bonus (additional examples): \href{https://davidmathlogic.com/amit/spacecurvegallery.html}{This applet} shows some of the examples you may have seen from CalcPlot3D. You can toggle on and off surface to see some of the surfaces that the vector functions lie on. Which curves lie on a standard curve? State the curve and the surface it lies on.
+\end{enumerate}
+
+\end{document} -->

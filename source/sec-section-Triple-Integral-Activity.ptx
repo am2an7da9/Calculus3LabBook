@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-Triple-Integral-Activity" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Triple Integral Activity</title>
+
+  <objectives>
+    <title>Helpful Resources and Steps</title>
+    <introduction>
+        <p>
+            Here is the <url href="https://c3d.libretexts.org/CalcPlot3D/CalcPlot3D-Help/section-regions.html">CalcPlot3D Regions Guide</url>.
+        </p>
+    </introduction>
+    
+    <p>
+        Steps to graph a region:
+    </p>
+
+    <ol>
+        <li>
+            <p>
+                Go to CalcPlot3D. (It may be useful to deselect the current graph or delete it.)
+            </p>
+        </li>
+        <li>
+            <p>
+                Use <q>Add to graph</q> and select <em>region</em>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Add values and functions to describe your region. Note that CalcPlot3D, as of right now, only considers a top region in the form of <m>z=f(x,y)</m> (not those in the form of <m>y=f(x,z)</m> or <m>x=f(y,z)</m>). You can add this surface at the bottom under 3D Plot. The 2D Plot defaults to a function in the form of <m>y=f(x)</m>, but you can select <m>x=f(y)</m> if this is useful. 
+            </p>
+        </li>
+        <li>
+            <p>
+                Don't forget to press enter so your region shows up!
+            </p>
+        </li>
+    </ol>
+  </objectives>
+  
+  <statement>
+    <p>
+        Work with your group on the following questions which will help us explore the <alert>wacky world</alert> of Triple Integrals!
+    </p>
+  </statement>
+
+  <exercise>
+        <statement>
+            <p>
+                Use CalcPlot3D to view the region bounded by the following: 
+                <me>-2\leq y\leq 2, \qquad  0\leq x\leq \sqrt{4-y^2}, \qquad \text{ and } \qquad 1\leq z \leq 2+x</me>.
+            </p>
+        </statement>
+
+        <statement>
+            <hint>
+            <p>
+                Notice that the default is for <m>y</m> to be a function of <m>x</m>. The button <m>x=f(y)</m> may be helpful.
+            </p>
+            </hint>
+        </statement>
+        
+        <statement>
+            <p>
+                Then write a triple integral which calculates the volume of this region.
+            </p>
+        </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            Sketch the solid whose volume is given by the iterated integral 
+            <me>\displaystyle\int_0^1\int_0^{1-x}\int_0^{2-2y-2x}dzdydx</me>. 
+            Check your answer in CalcPlot3D. 
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            Sketch the solid whose volume is given by the iterated integral 
+            <me>\displaystyle\int_0^1\int_0^{1-y}\int_0^{2-2y-2x}dzdxdy</me>. 
+            Check your answer in CalcPlot3D. 
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            Would this integral represent the volume of the same region as the previous questions 
+            <me>\displaystyle\int_0^1\int_0^{1-x}\int_0^{2-2z-2x}dydzdx</me>? 
+            If so, explain your reasoning. If not, explain how the region described by this integral is different. 
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            Archer and Eva, the amazing math kitties, are working on switching the order of integration to convert 
+            <me>\displaystyle\int_0^{\frac{1}{2}}\int_0^{1-2x}\int_0^{1-y-2x}dzdydx</me> 
+            into the form of <m>\iiint dzdxdy</m>. Archer shares his answer 
+            <me>\displaystyle\int_0^{\frac{1}{2}}\int_0^{1-2y}\int_0^{1-x-2y}dzdxdy</me>. 
+            What would you say to him? Help Eva correct his work and discuss any misconceptions he may have in his setup. 
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            Consider the integral 
+            <me>\displaystyle\int_0^1\int_0^{1-x}\int_0^{2-2z}dydzdx</me>. 
+            Sketch the solid represented by this triple integral and compare it with the solids you found with CalcPlot3D for the previous questions.
+        </p>
+    </statement>
+
+    <statement>
+        <hint>
+            <p>
+                You may want to reorder the problem so that it is in the form of <m>\iiint dzdydx</m> so you can use CalcPlot 3D to sketch the solid.
+            </p>
+        </hint>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            Consider the integral
+            <me>\displaystyle\int_{-1}^1\int_{x^2}^{1}\int_0^{1-y}dzdydx</me>.
+
+            <task>
+                <statement>
+                    <p>
+                        Sketch the region and check your answer in CalcPlot3D.
+                    </p>
+                </statement>
+            </task>
+
+            <task>
+                <statement>
+                    <p>
+                        The magnificent math kitty, Archer, is asked to rewrite this integral as an integral of the form <m>\int\int\int dydzdx</m>. He shares his bounds to be 
+                        <me>-1\leq x\leq 1,  \qquad 0 \leq z\leq 1, \qquad x^2\leq y \leq 1</me>. 
+                        Use CalcPlot3D to verify that his region is correct. If not, discuss what misconception he has potentially made and correct his work. 
+                    </p>
+                </statement>
+            </task>
+        </p>
+    </statement>
+  </exercise>
+
+</section>

@@ -10,4 +10,9 @@
   <!-- include sections -->
   <xi:include href="sec-section-name.ptx" />
 
+  <!-- Vector Functions Activity -->
+  <xi:include href="sec-section-Vector-Functions-Activity.ptx" />
+
+  <!-- Triple Integral Activity -->
+  <xi:include href="sec-section-Triple-Integral-Activity.ptx" />
 </chapter>
