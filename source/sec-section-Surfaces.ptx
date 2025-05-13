@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-Surfaces" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Surfaces</title>
+
+  <objectives>
+    <title>Helpful Resources and Steps</title>
+    <introduction>
+        <p>
+            to come...
+        </p>
+    </introduction>
+  </objectives>
+  
+  <exercise>
+    <statement>
+        <p>
+            Eva and Archer often debate whether <m>x^2+y^2</m> is a circle or a cylinder or whether <m>x=y</m> is a line or a plane. Use the following <url href="https://davidmathlogic.com/amit/cylinder2.html">applet</url> to activate and deactivate the equations so that you can create a circle, line, cylinder, and plane. Take screenshots/snips of each graph and write at least one sentence explaining what causes the difference between making the circle versus the cylinder and the line versus the plane.  
+        </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            This <url href="https://davidmathlogic.com/amit/quadricsurfaces.html">applet</url> shows several classic examples of surfaces. It also allows you to change values titled <m>a</m>, <m>b</m>, and <m>c</m>. What do these values represent and describe one thing you notice when you change their values. 
+        </p>
+    </statement>
+  </exercise>
+
+  <assemblage>
+    <title>CalcPlot3D</title>
+    <p>
+        CalcPlot3D has <em>even</em> more examples of surfaces. Here are instructions to get to the example surfaces:
+        <ol>
+            <li>
+                <p>
+                    Go to <url href="https://c3d.libretexts.org/CalcPlot3D/index.html">CalcPlot3D</url> (or Google <q>calcplot3d</q>). 
+                </p>
+            </li>
+            <li>
+                <p>
+                    You will see a generic surface on the website. Go to the three white lines in the upper left corner. Click on it and a grey menu will pop up. Click on <em>Examples</em>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Click on <em>Implicit Surfaces</em>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Under Implicit Surfaces, you will see a plethora of examples. 
+                </p>
+            </li>
+        </ol>
+    </p>
+  </assemblage>
+
+  <exercise>
+    <task>
+        <statement>
+            <p>
+                What is your favorite example from the list? Use print plot to share a picture of your favorite surface. (Go to the three white lines in the upper left and then select print plot.) 
+            </p>
+        </statement>
+    </task>
+    
+    <task>
+        <statement>
+            <p>
+                At the top left (below the three white lines are several boxes starting with a box with two arrows). Describe what each box does. For example, the first one with the arrows refreshes the page and goes back to the first page of CalcPlot3D. 
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+  <assemblage>
+    <title>Graphing Surfaces with CalcPlot3D</title>
+    <p>
+        You can use CalcPlot3D to graph surfaces. 
+    
+    <ul>
+        <li>
+            <p>
+                Go to the <url href="https://c3d.libretexts.org/CalcPlot3D/index.html">main site</url> or Google <q>calcplot3d</q>.
+            </p>
+        </li>
+        <li>
+            <p>
+                For explicit functions of <m>x</m> and <m>y</m> variables (functions that can be written in the form <m>z=f(x,y)</m>, you can just change the equation of the default function on the home page. 
+            </p>
+        </li>
+        <li>
+            <p>
+                If you want to add another function, select <em>Add to graph</em> above the equation line in red/pink.
+            </p>
+        </li>
+        <li>
+            <p>
+                For explicit functions of <m>x</m> and <m>y</m> variables (functions that can be written in the form <m>z=f(x,y)</m>, you can select <em>Function: <m>z=f(x,y)</m></em> (note you could also just change the equation of the function that is shown). Make sure to check the graph if you want to see it. 
+            </p>
+        </li>
+        <li>
+            <p>
+                If you want to add a non-explicit function or a function that is not in the form of <m>z=f(x,y)</m>, you can select <em>Implicit Surface</em> and write the equation you want implicitly. 
+            </p>
+        </li>
+        <li>
+            <p>
+                Note you can also change some view settings by going to the three lines in the upper left and going to view settings.
+            </p>
+        </li>
+    </ul>
+    </p>
+  </assemblage>
+
+  <exercise>
+    <statement>
+        <p>
+            Use CalcPlot3D to graph the following surfaces (add a screenshot). Note you may want to increase the range for <m>x</m>, <m>y</m>, and <m>z</m> for implicit equations. You can also use the option print plot.
+            <hint>
+                <p>
+                    Go to the three white lines in the upper left and then select print plot.
+                </p>
+            </hint>
+        </p>
+
+        <task>
+            <statement>
+                <p>
+                    <m>z=5\cos(x)+2\sin(y)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>z=\displaystyle\frac{x}{e^{x^2 + y^2}}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>y=5\cos(x)-2\sin(z)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>z=e^{x^2-y^2}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>y^2-z^2+x^2=1</m>
+                </p>
+            </statement>
+        </task>
+
+        <task>
+            <statement>
+                <p>
+                    <m>z=\ln(xy)</m>
+                </p>
+            </statement>
+        </task>
+    </statement>
+  </exercise>
+
+</section>

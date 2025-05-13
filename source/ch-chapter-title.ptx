@@ -17,4 +17,7 @@
 
   <!-- Triple Integral Activity -->
   <xi:include href="sec-section-Triple-Integral-Activity.ptx" />
+
+   <!-- Surfaces -->
+  <xi:include href="sec-section-Surfaces.ptx" />
 </chapter>

@@ -43,51 +43,119 @@
     <task>
         <statement>
             <p>
-                Use the slider at the bottom of the applet to move <m>t</m> around. Use the slider to <alert>approximate</alert> the value of <m>r(0)</m>. [Note: I am not expecting an exact answer.]
+                Use the slider at the bottom of the applet to move <m>t</m> around. Use the slider to <alert>approximate</alert> the value of <m>r(0)</m>. <alert>Note: I am not expecting an exact answer.</alert>
             </p>
         </statement>
     </task>
   </exercise>
 
+  <exercise>
+    <statement>
+        <p>
+            This <url href="https://davidmathlogic.com/amit/spacecurvehelix.html">applet</url> shows an example of a helix graph.
+        </p>
+    </statement>
+
+    <task>
+        <statement>
+            <p>
+                As <m>t</m> increases, do we travel up the helix or down the helix? How do you know?
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Adjust one of the functions of <m>r(t)</m> (either <m>f</m>, <m>g</m>, or <m>h</m>) to make the helix go in the reverse direction. 
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                What components of the vector function create the rotation or circular pattern of the helix?
+            </p>
+        </statement>
+    </task>
+
+    <task>
+        <statement>
+            <p>
+                Create a vector function that will represent a helix that goes out along the <m>y</m> axis rather than the <m>z</m> axis. 
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <statement>
+        <p>
+            Given two points, we can create a vector function that represents the line segment between them. This <url href="https://davidmathlogic.com/amit/linesegment.html">applet </url> visualizes this process. Read the blurb on the applet. Does the order of <m>r_0</m> and <m>r_1</m> matter for the line segment? At what <m>t</m>-value are we at the midpoint of the segment? 
+        </p>
+    </statement>
+  </exercise>
+
+  <statement>
+        <p>
+            <url href="https://c3d.libretexts.org/CalcPlot3D/index.html">CalcPlot3D</url> is a pretty cool website which has a lot of interesting applications which we will begin to explore in more detail later this semester. We are going to use this site to see some cool vector functions (space curves). 
+        </p>
+    </statement>
+
+    <assemblage>
+        <title>CalcPlot3D</title>
+        <p>
+            Here are instructions to get to the example space curves:
+            <ul>
+                <li>
+                    <p>
+                        Go to <url href="https://c3d.libretexts.org/CalcPlot3D/index.html">CalcPlot3D</url> (or Google <q>calcplot3d</q>). 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You will see a generic surface on the website. Go to the three white lines in the upper left corner. Click on them and a grey menu will pop up. Click on <em>Examples</em>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Click on <em>Space Curves</em>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Under Space Curves, you will see a plethora of space curve examples. 
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+
+  <exercise>
+    <task>
+        <statement>
+            <p>
+                Explore the Space Curves and animate them and play around with some of the settings. In particular, use the animate button on the left. You can slow down the animation by increasing the number of steps which is a value you can change on the left side of the screen. What do the blue, green, and black arrows represent?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Pick two examples of space curves that seem most interesting to you. Screenshot them and explain why you picked/liked them. 
+            </p>
+        </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <title>Bonus: Additional Examples</title>
+    <statement>
+        <p>
+            This <url href="https://davidmathlogic.com/amit/spacecurvegallery.html">applet</url> shows some of the examples you may have seen from CalcPlot3D. You can toggle on and off surface to see some of the surfaces that the vector functions lie on. Which curves lie on a standard curve? State the curve and the surface it lies on.
+        </p>
+    </statement>
+  </exercise>
+
 </section>
-
-<!-- 
-
-
-
-\section*{Problem Set}
-\begin{enumerate}
-\begin{enumerate}
-    \item  
-\end{enumerate}
-
-\item \href{https://davidmathlogic.com/amit/spacecurvehelix.html}{This applet} shows an example of a helix graph.
-\begin{enumerate}
-    \item As $t$ increases, do we travel up the helix or down the helix? How do you know?
-    \item Adjust one of the functions of $r(t)$ (either $f, g,$ or $h$) to make the helix go in the reverse direction. 
-    \item What components of the vector function create the rotation or circular pattern of the helix?
-    \item Create a vector function that will represent a helix that goes out along the $y$ axis rather than the $z$ axis. 
-\end{enumerate}
-
-\item Given 2 points, we can create a vector function that represents the line segment between them.  \href{https://davidmathlogic.com/amit/linesegment.html}{This applet} visualizes this process. Read the blurb on the applet. Does the order of $r_0$ and $r_1$ matter for the line segment? At what t-value are we at the midpoint of the segment? 
-
-\item \href{https://c3d.libretexts.org/CalcPlot3D/index.html}{CalcPlot3D} is a pretty cool website which has a lot of interesting applications which we will begin to explore in more detail later this semester. We are going to use this site to see some cool vector functions (space curves). 
-
-Here are instructions to get to the example space curves:
-\begin{itemize}
-    \item Go to \href{https://c3d.libretexts.org/CalcPlot3D/index.html}{https://c3d.libretexts.org/CalcPlot3D/index.html} (or google ``calcplot3d''). 
-    \item You will see a generic surface on the website. Go to the 3 white lines in the upper left corner. Click on it and a grey menu will pop up. Click on Examples.
-    \item Click on ``Space Curves."
-    \item Under space curves, you will see a plethora of space curve examples. 
-\end{itemize}
-Questions:
-\begin{enumerate}
-    \item Explore the space curves and animate them and play around with some of the settings. In particular, use the animate button on the left. You can slow down the animation by increasing the number of steps which is a value you can change on the left side of the screen. What do the blue, green, and black arrows represent?
-    \item Pick 2 examples of space curves that seem most interesting to you. Screenshot them and explain why you picked/liked them. 
-\end{enumerate}
-
-
-\item Bonus (additional examples): \href{https://davidmathlogic.com/amit/spacecurvegallery.html}{This applet} shows some of the examples you may have seen from CalcPlot3D. You can toggle on and off surface to see some of the surfaces that the vector functions lie on. Which curves lie on a standard curve? State the curve and the surface it lies on.
-\end{enumerate}
-
-\end{document} -->
