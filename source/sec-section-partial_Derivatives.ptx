@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-partial_Derivatives" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Partial Derivatives Lab/title>
+
+  <p> Read First </p>
+  <objectives>
+    <statement>
+        <p>
+            In this activity, we will explore the geometric interpretation
+             of the partial derivative as the slope of a tangent line. 
+            <url href="https://davidmathlogic.com/amit/partialderivatives.html" visual="This little app" /> , 
+            may be useful to review to provide an example of what <m> f_x </m> and <m>f_y </m> represent 
+            at a point (App is created by Dr. David Nichols). 
+First we <alert> Highly RECOMMEND </alert> reviewing <url  href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=ahr-activity1" value="this demonstration" /> in CalcPlot3D and having it up in a separate tab while you work on the problem set below.
+
+        </p>
+    </statement>
+  </objectives>
+  
+
+</section>

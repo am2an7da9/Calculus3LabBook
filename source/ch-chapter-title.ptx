@@ -15,6 +15,9 @@
   <!-- Vector Functions Activity -->
   <xi:include href="sec-section-Vector-Functions-Activity.ptx" />
 
+    <!-- Partial Derivatives Activity -->
+  <xi:include href="sec-section-partial_Derivatives" />
+
   <!-- Triple Integral Activity -->
   <xi:include href="sec-section-Triple-Integral-Activity.ptx" />
 
