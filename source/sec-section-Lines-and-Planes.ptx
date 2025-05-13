@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-Lines-and-Planes" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lines and Planes</title>
+
+  <objectives>
+    <title>Helpful Resources and Steps</title>
+    <introduction>
+        <p>
+            to come...
+        </p>
+    </introduction>
+  </objectives>
+
+  <exercise>
+    <statement>
+      <p>
+          Use this <url href="https://davidmathlogic.com/amit/introplanes.html">applet</url> to visual planes in the form <m>x=k</m>, <m>y=k</m>, and <m>z=k</m>. Which plane is horizontal? 
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        We can use this <url href="https://davidmathlogic.com/amit/line3d">applet</url> to visualize the vector form of a line. Start with <m>t=0</m> and increase the value of <m>t</m> to move along the line. What happens when <m>t</m> is a negative value? Explain what each vector is in the picture (<m>\mathbf{r}</m>, <m>\mathbf{v}</m>, <m>\mathbf{r}_0</m>, and <m>t\mathbf{v}</m>).
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+          Describe what you notice about the visualization in this <url href="https://davidmathlogic.com/amit/planestatic.html">applet</url>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        This <url href="https://davidmathlogic.com/amit/planeintercepts.html">applet</url> draws a plane that is written in standard form (that is, <m>Ax+By+Cz=D</m>). What do you notice about the plane if you keep <m>A</m>, <m>B</m>, and <m>C</m> constant and change the value of <m>D</m>? 
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        This question will use CalcPlot3D to visualize finding the plane through three non-collinear points.
+        <task>
+          <statement>
+            <p>
+              Find the equation of the plane containing the points <m>(2, 0, 1)</m>, <m>(-1, 2, 3)</m>, and <m>(0, 2, -2)</m>.
+            </p>
+          </statement>
+        </task>
+        <task workspace="">
+          <statement>
+            <p>
+              Graph this plane along with the three points to verify that all three points lie on the plane. To do this, first solve the plane equation for <m>z</m> and graph the plane, entering it in the provided function box on the left. To see it graph, either press enter on the function or click the Graph button. Just above this function there should be a dropdown menu labeled: <em>Add to graph.</em> Select to add a Point $<m>(x, y, z)</m>, entering the coordinates of one of the points. You can use the default size and colors. (If you wish to vary these settings, be sure the points still show up well in the printout.) Note that the checkbox to the left of a function, point, or other object needs to be selected if you wish to see that object in the plot. Repeat these steps to add the other two points. Rotate the plot to verify that all the points lie on the plane and then find a clear view of the plane with the three points on it. Use the <em>Print Plot</em> menu option on the <em>File</em> menu at the top left corner of the CalcPlot3D app to print out your resulting view and to submit for this problem.
+            </p>
+          </statement>
+        </task>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+        This question will use CalcPlot3D to visualize finding line of intersection of two planes.
+      </p>
+      <task>
+        <statement>
+          <p>
+            Determine the line of intersection of the plane <m>2x+y-2z=5</m> and the plane <m>3x-6y-2z=15</m>. Write the parametric equations for this line, showing all work. 
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use the CalcPlot3D app to display these two planes. To do this, solve each planar equation for <m>z</m>, and enter them in the app, using two function objects. There is one there when you open the app, and you can add another by selecting Function: <m>z = f(x, y)</m> on the Add <em>to graph menu</em>. Zoom out a couple times (if necessary) until you can see both planes along with their intersection. Now add the line of intersection. (To do this, choose <em>Space Curve: <m>r(t)</m></em> from the <m>Add to graph menu</m>, and enter the parametric equations for the line.) Rotate the 3D view to verify that your line is indeed the intersection of the two planes. Rotate until you have a good view of the two planes and the line of intersection. Use the <em>Print Plot</em> menu option on the File menu at the top left corner of the CalcPlot3D app to print out your resulting view submit for this problem.
+            <hint>
+              <p>
+                You can make the intersection nice by clicking the 3D Mode button twice to select BSP mode.
+              </p>
+            </hint>
+          </p>
+        </statement>
+      </task>
+    </statement>
+  </exercise>
+
+</section>

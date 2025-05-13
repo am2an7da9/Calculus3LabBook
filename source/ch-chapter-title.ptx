@@ -21,6 +21,9 @@
   <!-- Triple Integral Activity -->
   <xi:include href="sec-section-Triple-Integral-Activity.ptx" />
 
+  <!-- Lines and Planes -->
+  <xi:include href="sec-section-Lines-and-Planes.ptx" />
+
    <!-- Surfaces -->
   <xi:include href="sec-section-Surfaces.ptx" />
 </chapter>
