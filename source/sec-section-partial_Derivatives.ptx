@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-partial_Derivatives" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Partial Derivatives Lab/title>
+   <title>Partial Derivatives Lab </title>
 
-  <p> Read First </p>
-  <objectives>
+   <objectives>
+    <statement>
+      <p>
+        Coming soon
+      </p>
+    </statement>
+   </objectives>
+   
+  <p> <alert> Read First </alert> </p>
+
     <statement>
         <p>
             In this activity, we will explore the geometric interpretation
@@ -12,11 +20,32 @@
             <url href="https://davidmathlogic.com/amit/partialderivatives.html" visual="This little app" /> , 
             may be useful to review to provide an example of what <m> f_x </m> and <m>f_y </m> represent 
             at a point (App is created by Dr. David Nichols). 
-First we <alert> Highly RECOMMEND </alert> reviewing <url  href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=ahr-activity1" value="this demonstration" /> in CalcPlot3D and having it up in a separate tab while you work on the problem set below.
+First we <alert> Highly RECOMMEND </alert> 
+reviewing <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=ahr-activity1" visual="this demonstration"/> in CalcPlot3D and having it up in a separate tab while you work on the problem set below.
 
         </p>
     </statement>
-  </objectives>
-  
+
+    <exercise>
+      <statement>
+        <p>
+          Consider finding the equation of the line that lies in the plane <m>y=2 </m> and is tangent
+       to the graph of <m>f(x,y)=\sqrt{y-x^2}</m> when <m>x=1</m> and <m>y=2</m>. (<m>x=1</m>
+        is used in the demonstration above). 
+        </p>
+      </statement>
+      
+    </exercise>
+<exercise>
+  <statement>
+    <p>
+       To find the equation of a line in space, you need a point that lies on the 
+       line and a direction vector. <alert> What is the point and direction vector in this situation?</alert>
+        Please note that your line will remain in the plane <m> y=2</m>, so your vector
+         will not vary in the <m>y</m> direction.
+    </p>
+  </statement>
+</exercise>
+
 
 </section>
