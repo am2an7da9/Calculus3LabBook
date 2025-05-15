@@ -14,6 +14,9 @@
 
   <!-- Vector Functions Activity -->
   <xi:include href="sec-section-Vector-Functions-Activity.ptx" />
+  
+<!-- Surfaces -->
+  <xi:include href="sec-section-Surfaces.ptx" />
 
     <!-- Partial Derivatives Activity -->
   <xi:include href="sec-section-partial_Derivatives.ptx" />
@@ -24,6 +27,8 @@
   <!-- Lines and Planes -->
   <xi:include href="sec-section-Lines-and-Planes.ptx" />
 
-   <!-- Surfaces -->
-  <xi:include href="sec-section-Surfaces.ptx" />
+    <!-- Linear Approximation -->
+  <xi:include href="sec-section-LinearApproximation" />
+
+   
 </chapter>

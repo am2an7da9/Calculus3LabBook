@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-LinearApproximation" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <title>Linear Approximation Lab </title>
+
+   <objectives>
+    <statement>
+      <p>
+        Coming soon
+      </p>
+    </statement>
+   </objectives>
+   
+  <p> <alert> Read First </alert> </p>
+
+    <statement>
+        <p>
+            In this activity, we will explore the geometric interpretation
+             of the partial derivative as the slope of a tangent line. 
+            <url href="https://davidmathlogic.com/amit/partialderivatives.html" visual="This little app" /> , 
+            may be useful to review to provide an example of what <m> f_x </m> and <m>f_y </m> represent 
+            at a point (App is created by Dr. David Nichols). 
+First we <alert> Highly RECOMMEND </alert> 
+reviewing <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=ahr-activity1" visual="this demonstration"/> in CalcPlot3D and having it up in a separate tab while you work on the problem set below.
+
+        </p>
+    </statement>
+
+    <exercise>
+      <statement>
+        <p>
+          Consider finding the equation of the line that lies in the plane <m>y=2 </m> and is tangent
+       to the graph of <m>f(x,y)=\sqrt{y-x^2}</m> when <m>x=1</m> and <m>y=2</m>. (<m>x=1</m>
+        is used in the demonstration above). 
+        <ol>
+          <li>
+            <p>
+              To find the equation of a line in space, you need a point that lies on the 
+       line and a direction vector. <alert> What is the point and direction vector in this situation?</alert>
+        Please note that your line will remain in the plane <m> y=2</m>, so your vector
+         will not vary in the <m>y</m> direction.
+            </p>
+          </li>
+          <li>
+            <p>
+          Write an equation for the tangent line in vector form.
+          </p>
+          </li>
+          <li>
+            <p>
+              In CalcPlot3D, <alert> plot the surface, the point of tangency, the plane <m>y=2</m>, 
+                and the tangent line you found.</alert>
+                 Provide a screenshot of this for this problem. Note if your line does not appear to be
+                  tangent, you may need to review the computations used to find the tangent line.
+                   Once you are confident you have the correct plot, provide a screenshot or send
+                    the URL of your plot with the instructor (to do the latter go to the 3 lines in 
+                    the upper left side of Calcplot3D select file then select encode view in URL).
+            </p>
+          </li>
+            </ol>
+        </p>
+      </statement>
+      
+    </exercise>
+<exercise>
+  <statement>
+    <p>
+      Now we will relate the tangent line you obtained to the concept of tangent lines 
+      learned in Calculus I. 
+      <ol>
+        <li>
+          <p>Write the symmetric equations for the tangent line you found in 1(b).
+          </p>
+        </li>
+          <li>
+          <p> Solve the symmetric equation for <m>z</m>  in terms of <m>x</m>. 
+            We will call this Equation I.
+          </p>
+        </li>
+          <li>
+          <p> Consider <m>z=\sqrt{y-x^2}</m>. Substitute <m>y=2</m> into this equation to obtain a 
+            single variable function.
+             This represents the trace in the plane <m>y=2</m>. 
+          </p>
+        </li>
+          <li>
+          <p> Find the equation of the line tangent to this single variable function at <m>x=1</m>. 
+            Call this Equation II.
+          </p>
+        </li>
+          <li>
+          <p> Equations I and II should be equivalent. This shows that the partial derivative at a point will give us the slope of a line tangent to a trace curve, 
+            which is equivalent to the Calculus I concept of finding slopes of tangent lines in a plane.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </statement>
+</exercise>
+
+
+</section>
