@@ -2,7 +2,8 @@
 
 <section xml:id="sec-section-LinearApproximation" xmlns:xi="http://www.w3.org/2001/XInclude">
    <title>Linear Approximation Lab </title>
-
+<p>Activity created by Paul Seeburger, Katie Hall (University of Connecticut), Some applets created by Dr. David Nichols, \\
+adapted by Dr. Amanda Harsy</p>
    <objectives>
     <statement>
       <p>
@@ -13,25 +14,14 @@
    
   <p> <alert> Read First </alert> </p>
 
-    <statement>
-        <p>
-            In this activity, we will explore the geometric interpretation
-             of the partial derivative as the slope of a tangent line. 
-            <url href="https://davidmathlogic.com/amit/partialderivatives.html" visual="This little app" /> , 
-            may be useful to review to provide an example of what <m> f_x </m> and <m>f_y </m> represent 
-            at a point (App is created by Dr. David Nichols). 
-First we <alert> Highly RECOMMEND </alert> 
-reviewing <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploration=ahr-activity1" visual="this demonstration"/> in CalcPlot3D and having it up in a separate tab while you work on the problem set below.
-
-        </p>
-    </statement>
-
+  
     <exercise>
       <statement>
         <p>
-          Consider finding the equation of the line that lies in the plane <m>y=2 </m> and is tangent
-       to the graph of <m>f(x,y)=\sqrt{y-x^2}</m> when <m>x=1</m> and <m>y=2</m>. (<m>x=1</m>
-        is used in the demonstration above). 
+         Go to <url href="\href{https://davidmathlogic.com/amit/linearapproximation.html" visual="this applet" /> 
+          created by Dr. David Nichols and click on the <m>x_1 </m>,...,<m>x_4</m>
+           which shows what happens as we zoom in on the tangent plane at the given point. 
+         What do you notice about the surface and the plane?
         <ol>
           <li>
             <p>
