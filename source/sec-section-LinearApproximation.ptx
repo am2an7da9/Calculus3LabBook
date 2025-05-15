@@ -70,5 +70,49 @@ adapted by Dr. Amanda Harsy</p>
   
 </exercise>
 
+<exercise>
+<statement>
+    <p>
+        The following activity, created by Dr. Katie Hall,
+         uses Geogebra to help us visualize the tangent plane.
+          First click <url href="\href{https://www.geogebra.org/3d/rqfs5bny)" visual="here" /> 
+          <!-- (\url{https://www.geogebra.org/3d/rqfs5bny}) -->
+           to access the demo and then follow the instructions below: 
+    </p>
+    <ol>
+        <li>
+            <p>
+                Once the demo is open, turn on the <em>Paraboloid </em> function 
+                 (click the circle next to it) if it is not on already. 
+                 If you would like to, play around with the <m>a</m> and <m>b </m> sliders as you please
+                  until you find a shape that you want to work with. Notice the Point A sitting on
+                   the surface of this function. You may move this point around as you please.
+                    You will soon see the relevance and importance of this point.Turn on the 
+                    TangentPlane function. Begin to move the point around again.
+                     <alert>Question:</alert> How does the TangentPlane change in response to point
+                      A's movements?
+            </p>
+        </li>
+        <li>
+            <p>
+                 Let's explore further
+            </p>
+        </li>
+        <ul>
+            <li>
+                <p>
+                    To view the x and y traces of the function, turn on <alert>XTrace</alert> and <alert>YTrace</alert>. 
+                    You can keep these on to help visualize what's going on if you would like. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Click the circle next to NormalVector to view the normal vector to the function at point A. Move around the point to see how this vector changes.
+                </p>
+            </li>
+        </ul>
+    </ol>
+    </statement>
+ </exercise>
 
 </section>
