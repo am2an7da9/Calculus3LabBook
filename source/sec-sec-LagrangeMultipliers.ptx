@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-section-LaTexPlay" xmlns:xi="http://www.w3.org/2001/XInclude">
-  
+<section xml:id="sec-sec-LagrangeMultipliers" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-<section>
-
+ 
    
     <title>Lagrange Multipliers</title>
  <p>
-        Activity created by Dr. Paul Seeburger and adapted by Dr. Amanda Harsy}
+        Activity created by Dr. Paul Seeburger and adapted by Dr. Amanda Harsy
     </p>
-    
+
     <objectives>
     <statement>
       <p>
@@ -19,69 +17,86 @@
     </statement>
    </objectives>
     <p>
-        The goal of this activity is to help us understand how we develop the Lagrange multiplier equation <m>\nabla f(x,y)=\lambda \nabla g(x,y)</m> and to visualize finding extreama on a surface subject to a constraint.
+        The goal of this activity is to help us understand how we develop the Lagrange multiplier 
+        equation <m>\nabla f(x,y)=\lambda \nabla g(x,y)</m> and to visualize finding extreama on 
+        a surface subject to a constraint.
     </p>
 
     <ol>
         <li>
             <p>
-                Find the relative extreama of the function <m>f (x, y) = x^{2} + y^{2} + 2x - 2y + 1</m> subject to the constraint, <m>g(x, y) = x^{2} + y^{2} = 2</m> subject to the given constraint, showing all work.
+                Find the relative extreama of the function <m>f (x, y) = x^{2} + y^{2} + 2x - 2y + 1</m>
+                 subject to the constraint, <m>g(x, y) = x^{2} + y^{2} = 2</m> subject to the given
+                  constraint, showing all work.
             </p>
         </li>
 
         <li>
             <p>
-                Graph the function from above in CalcPlot3D (<alert>see and create its contour plot and attach it to get credit for this problem</alert>)using the following steps:
+                Graph the function from above in CalcPlot3D
+                 (<alert>see and create its contour plot and attach it to get credit for this problem</alert>) 
+                 using the following steps:
                 <ul>
                     <li>
                         <p>
                             Enter <m>x^{2} + y^{2} + 2x - 2y + 1</m> in the first function.
-                            Zoom out once so the <m>x</m> and <m>y</m>values range from <m>-4</m> to <m>4</m>.
+                            Zoom out once so the <m>x</m> and <m>y</m> values range from <m>-4</m> to <m>4</m>.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            To obtain the contour plot, click on the contour plot button below the function definition.
+                            To obtain the contour plot, click on the contour plot button below the
+                             function definition.
                             (See the icon shown in part 4 above.)
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            On the Contour Plot Settings dialog, enter <alert>First level value: <m>-1</m>, Step size: 1, and Number of contours: 10.</alert>
+                            On the Contour Plot Settings dialog, enter 
+                            <alert>First level value: <m>-1</m>, Step size: 1, and Number of contours: 10.</alert>
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            To display the constraint curve, select the third option on the <alert>Add Constraint Curve</alert> menu.
+                            To display the constraint curve, select the third option on the
+                             <alert>Add Constraint Curve</alert> menu.
                             This option is: <alert>Circle centered at origin</alert>.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            <alert>Enter 2</alert> in the box representing <m>\mathbf{R}^{2}</m> and use the chevrons to go back to the main level of <alert>Contour Plot Settings</alert>.
+                            <alert>Enter 2</alert> in the box representing <m>\mathbf{R}^{2}</m>
+                             and use the chevrons to go back to the main level of
+                              <alert>Contour Plot Settings</alert>.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            Now click on the <alert>Create Plot</alert> button in this dialog, and you should see the contour plot and the constraint curve appear.
+                            Now click on the <alert>Create Plot</alert> button in this dialog, and you 
+                            should see the contour plot and the constraint curve appear.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            By default, the gradient vectors of <m>f</m> and <m>g</m> are displayed, <em> <m>\nabla f</m> is red</em> and <em> <m>\nabla g</m> is blue</em>.
-                            To watch them vary along the constraint curve, use the scrollbar located at the bottom of the 3D plot.
+                            By default, the gradient vectors of <m>f</m> and <m>g</m> are displayed, 
+                            <em> <m>\nabla f</m> is red</em> and <em> <m>\nabla g</m> is blue</em>.
+                            To watch them vary along the constraint curve, use the scrollbar located at
+                             the bottom of the 3D plot.
                         </p>
                     </li>
 
                     <li>
                         <p>
-                            Note: we can visually verify that these gradient vectors are either parallel to each other or <em> <m>\nabla f=0</m> </em> when we obtain a relative extremum of <m>f</m> subject to the constraint, in both cases satisfying the Lagrange Multiplier equation.
+                            Note: we can visually verify that these gradient vectors are either parallel to 
+                            each other or <em> <m>\nabla f=0</m> </em> when we obtain a relative
+                             extremum of <m>f</m> subject to the constraint, in both cases satisfying 
+                             the Lagrange Multiplier equation.
                         </p>
                     </li>
 
@@ -89,8 +104,10 @@
                         <p>
                             Now click on the contour plot in the large 3D plot window.
                             The surface above will appear.
-                            Use the right arrow key to rotate the 3D graph to the right about the z-axis until you see a clear view of the relative extrema.
-                            Then use the scrollbar again to move along the trace of the constraint curve on the surface to verify the relative extrema we found earlier.
+                            Use the right arrow key to rotate the 3D graph to the right about the z-axis until 
+                            you see a clear view of the relative extrema.
+                            Then use the scrollbar again to move along the trace of the constraint
+                             curve on the surface to verify the relative extrema we found earlier.
                         </p>
                     </li>
                 </ul>
@@ -99,7 +116,9 @@
 
         <li>
             <p>
-                Click on the contour plot and print a view of the surface (along with the contours and the constraint curve projected on the surface) that makes it possible to see both extrema clearly.
+                Click on the contour plot and print a view of the surface
+                 (along with the contours and the constraint curve projected on the surface) 
+                 that makes it possible to see both extrema clearly.
                 Add a screenshot or include a URL of the graph.
                 Remember you can go to file - to save the image as a png or to encode the view in a URL.
             </p>
@@ -107,17 +126,20 @@
 
         <li>
             <p>
-                Let <m>z=f(x,y)</m> represent the elevations in a mountainous area represented by the contour plot below:
-                <image source="ContourMapLagrangeActivity">
+                Let <m>z=f(x,y)</m> represent the elevations in a mountainous area represented by 
+                the contour plot below:
+                <image source="ContourMapLagrangeActivity.JPG">
                 </image>
             </p>
 
-            <p>
+             <p>
                 Suppose you are taking a hike along a circular route.
                 On the contour plot, mark all of the relative high points and low points you encountered along your hike.
                 Then indicate with an “x” the absolute highest and lowest elevations that you encountered during your hike.
                 Remember to stay on your circular hiking trail.
-                Compare what you picked using <url href="{">https</url>://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=-0.2e
+                Compare what you picked using 
+                <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=-0.2e%5e-((x-0.25)%5e2+(y-0.25)%5e2)+0.3e%5e-(3(x-1.2)%5e2+y%5e2)-0.5e%5e-((x-2.6)%5e2+y%5e2)-0.5e%5e-((x-2.4)%5e2+(y+2.5)%5e2)-e%5e-((x+3)%5e2+3(y-1.85)%5e2)+0.17(2*(1-x)%5e2*exp(-(x%5e2)-(y+1)%5e2)-7*(x/5-x%5e3-y%5e5)*exp(-x%5e2-y%5e2)-1/3*exp(-(x+1)%5e2-y%5e2))-0.95e%5e-((x-2.6)%5e2+(y-2.8)%5e2);visible=true;umin=-1.8;umax=2.3;vmin=-2.15;vmax=2.85;grid=30;format=normal;alpha=-1;hidemyedges=false;constcol=rgb(232,225,189);view=0;contourcolor=rgb(255,0,0);fixdomain=false;contourplot=true;showcontourplot=true;firstvalue=-1;stepsize=0.1;numlevels=20;list=-1,-0.9,-0.8,-0.7,-0.6,-0.5,-0.4,-0.3,-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9;uselist=false;xnum=46;ynum=46;show2d=false;hidesurface=false;hidelabels=false;showprojections=false;surfacecontours=true;projectioncolor=rgba(51,153,0,1);showxygrid=false;showxygridonbox=true;showconstraint=true;constrainttype=2;constraintdata=1;constraintinxyplane=false;showgrads2d=true;showgrads3d=false;width=2;dropcurtain=false&type=window;hsrmode=3;nomidpts=true;anaglyph=-1;center=-10.583323720411897,-7.886889632137683,5.371473816323004,1;focus=0,0,0,1;up=0.39200790884163983,0.09702727686653143,0.9148308624819509,1;transparent=true;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=false;faceson=true;showbox=false;showaxes=true;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=true;gridcolor=rgb(128,128,128);xmin=-1.8;xmax=2.3;ymin=-2.15;ymax=2.85;zmin=-2;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=22;xscalefactor=1;yscalefactor=1;zscalefactor=1;showtraceplane=true;tracemode=0;keep2d=false;zoom=1.940267"
+                visual="this link".
             </p>
         </li>
 
@@ -161,7 +183,5 @@
             </image>
             Contour map for $f(x,y)=2x^{3}+y^{4}$, subject to the constraint of the unit circle ($x^{2}+y^{2}=1$)  fig:plot2
         </li>
-    </ol>
-</section>
-
+    </ol>   
 </section>
