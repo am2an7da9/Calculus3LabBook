@@ -32,6 +32,16 @@ reviewing <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploratio
           Consider finding the equation of the line that lies in the plane <m>y=2 </m> and is tangent
        to the graph of <m>f(x,y)=\sqrt{y-x^2}</m> when <m>x=1</m> and <m>y=2</m>. (<m>x=1</m>
         is used in the demonstration above). 
+        <ol>
+          <li>
+            <p>
+              To find the equation of a line in space, you need a point that lies on the 
+       line and a direction vector. <alert> What is the point and direction vector in this situation?</alert>
+        Please note that your line will remain in the plane <m> y=2</m>, so your vector
+         will not vary in the <m>y</m> direction.
+            </p>
+          </li>
+        </ol>
         </p>
       </statement>
       
@@ -39,10 +49,7 @@ reviewing <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?exploratio
 <exercise>
   <statement>
     <p>
-       To find the equation of a line in space, you need a point that lies on the 
-       line and a direction vector. <alert> What is the point and direction vector in this situation?</alert>
-        Please note that your line will remain in the plane <m> y=2</m>, so your vector
-         will not vary in the <m>y</m> direction.
+       
     </p>
   </statement>
 </exercise>
