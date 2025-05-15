@@ -30,7 +30,11 @@
     <!-- Linear Approximation -->
   <xi:include href="sec-section-LinearApproximation.ptx" />
 
-    <!-- Latex play 
-  <xi:include href="sec-section-LaTexPlay.ptx" />-->
+      <!-- Lagrange Multipliers -->
+  <xi:include href="sec-section-LagrangeMultipliers.ptx" />
+
+
+    <!-- Latex play  -->
+  <xi:include href="sec-section-LaTexPlay.ptx" />
    
 </chapter>

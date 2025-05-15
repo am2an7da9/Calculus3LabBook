@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-LaTexPlay" xmlns:xi="http://www.w3.org/2001/XInclude">
-<p>
-</p>
+  
 
 <section>
-    <title>Problem Set</title>
 
+   
+    <title>Lagrange Multipliers</title>
+ <p>
+        Activity created by Dr. Paul Seeburger and adapted by Dr. Amanda Harsy}
+    </p>
+    
+    <objectives>
+    <statement>
+      <p>
+        Coming soon
+      </p>
+    </statement>
+   </objectives>
     <p>
         The goal of this activity is to help us understand how we develop the Lagrange multiplier equation <m>\nabla f(x,y)=\lambda \nabla g(x,y)</m> and to visualize finding extreama on a surface subject to a constraint.
     </p>
