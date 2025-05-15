@@ -22,32 +22,7 @@ adapted by Dr. Amanda Harsy</p>
           created by Dr. David Nichols and click on the <m>x_1 </m>,...,<m>x_4</m>
            which shows what happens as we zoom in on the tangent plane at the given point. 
          What do you notice about the surface and the plane?
-        <ol>
-          <li>
-            <p>
-              To find the equation of a line in space, you need a point that lies on the 
-       line and a direction vector. <alert> What is the point and direction vector in this situation?</alert>
-        Please note that your line will remain in the plane <m> y=2</m>, so your vector
-         will not vary in the <m>y</m> direction.
-            </p>
-          </li>
-          <li>
-            <p>
-          Write an equation for the tangent line in vector form.
-          </p>
-          </li>
-          <li>
-            <p>
-              In CalcPlot3D, <alert> plot the surface, the point of tangency, the plane <m>y=2</m>, 
-                and the tangent line you found.</alert>
-                 Provide a screenshot of this for this problem. Note if your line does not appear to be
-                  tangent, you may need to review the computations used to find the tangent line.
-                   Once you are confident you have the correct plot, provide a screenshot or send
-                    the URL of your plot with the instructor (to do the latter go to the 3 lines in 
-                    the upper left side of Calcplot3D select file then select encode view in URL).
-            </p>
-          </li>
-            </ol>
+        
         </p>
       </statement>
       
@@ -55,37 +30,44 @@ adapted by Dr. Amanda Harsy</p>
 <exercise>
   <statement>
     <p>
-      Now we will relate the tangent line you obtained to the concept of tangent lines 
-      learned in Calculus I. 
-      <ol>
-        <li>
-          <p>Write the symmetric equations for the tangent line you found in 1(b).
-          </p>
-        </li>
-          <li>
-          <p> Solve the symmetric equation for <m>z</m>  in terms of <m>x</m>. 
-            We will call this Equation I.
-          </p>
-        </li>
-          <li>
-          <p> Consider <m>z=\sqrt{y-x^2}</m>. Substitute <m>y=2</m> into this equation to obtain a 
-            single variable function.
-             This represents the trace in the plane <m>y=2</m>. 
-          </p>
-        </li>
-          <li>
-          <p> Find the equation of the line tangent to this single variable function at <m>x=1</m>. 
-            Call this Equation II.
-          </p>
-        </li>
-          <li>
-          <p> Equations I and II should be equivalent. This shows that the partial derivative at a point will give us the slope of a line tangent to a trace curve, 
-            which is equivalent to the Calculus I concept of finding slopes of tangent lines in a plane.
-          </p>
-        </li>
-      </ol>
+      <url href="\href{https://davidmathlogic.com/amit/arclengthapproximation.html" visual="This applet" /> again created 
+      by Dr. David Nichols, demonstrates the linear approximation which can be used to calculate arc 
+      length. How large should <m>n</m> be in order to have the linear approximation be within 0.1
+       of the actual arc length? 
     </p>
   </statement>
+  <hint>
+    <p>
+         Play around with the values of <m>n</m> at the bottom of the applet!
+    </p>
+  </hint>
+</exercise>
+<exercise>
+  <statement>
+    <p>
+      The following question is designed to help you better understand the geometric meaning of the
+       total differential and visually verify the answer. Determine the tangent plane of the surface 
+       <m>z = f (x, y) = x^2 + xy + y^2 </m> at the point <m>(1, 0.5)</m> in its domain. 
+       Use CalcPlot3D to print the graph of this surface (with –2 to 2 on <m>x-</m> and 
+        <m>y-</m>axes) along with this tangent plane. Show the point of tangency.
+    </p>
+
+  </statement>
+    <hint>
+        <p>
+        <alert>Note: </alert> To create this plot, first enter the function in a
+        <alert> Function:</alert> <m>z = f(x, y)</m> panel. Then enter the tangent plane function
+         (solved for z) in a second function panel. Graph these surfaces together. 
+         Then choose <alert>Point </alert>: <m>(x, y, z)</m> from the <alert>Add to graph</alert> menu. 
+         Enter the coordinates of the point on the surface, and keep the default values for the other 
+         choices. To make it easier to see both surfaces, make them semi-transparent using either
+          Ctrl-T or the
+             <alert>Transparency toolbar button which looks like a magnifying glass</alert>.
+             <!-- %answer: z = 1.75 + 2.5(x - 1) + 2(y - 0.5) -->
+        </p>
+    </hint> 
+    
+  
 </exercise>
 
 
