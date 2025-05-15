@@ -30,5 +30,7 @@
     <!-- Linear Approximation -->
   <xi:include href="sec-section-LinearApproximation.ptx" />
 
+    <!-- Latex play 
+  <xi:include href="sec-section-LaTexPlay.ptx" />-->
    
 </chapter>

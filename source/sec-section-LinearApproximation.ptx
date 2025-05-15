@@ -97,7 +97,6 @@ adapted by Dr. Amanda Harsy</p>
             <p>
                  Let's explore further
             </p>
-        </li>
         <ul>
             <li>
                 <p>
@@ -110,7 +109,18 @@ adapted by Dr. Amanda Harsy</p>
                     Click the circle next to NormalVector to view the normal vector to the function at point A. Move around the point to see how this vector changes.
                 </p>
             </li>
+            <li>
+              <p>
+                To view the Tangent lines to the function at point A, turn on the two Tangent lines near the bottom. These lines represent the slopes of the partial derivatives of the function at point A with respect to x and y respectively. Notice that the line goes both directions. The direction of the derivative is influenced by the direction vector needed to calculate directional derivatives.
+              </p>
+            </li>
+            <li>
+              <p>
+                It's time to experiment! Toggle on and off whichever elements you'd like, and continue to move the point around on the function's surface. <alert>Attach a screenshot of what you have created!</alert>
+              </p>
+            </li>
         </ul>
+      </li>
     </ol>
     </statement>
  </exercise>
