@@ -30,8 +30,8 @@
     <!-- Linear Approximation -->
   <xi:include href="sec-section-LinearApproximation.ptx" />
 
-      <!-- Lagrange Multipliers 
-  <xi:include href="sec-sec-LagrangeMultipliers.ptx" /> -->
+      <!-- Lagrange Multipliers -->
+  <xi:include href="sec-sec-LagrangeMultipliers.ptx" /> 
 
    <!-- History -->
   <xi:include href="sec-sec-History1.ptx" /> 

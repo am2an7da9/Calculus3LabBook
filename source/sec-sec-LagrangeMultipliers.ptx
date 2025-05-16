@@ -138,8 +138,8 @@
                 Then indicate with an “x” the absolute highest and lowest elevations that you encountered during your hike.
                 Remember to stay on your circular hiking trail.
                 Compare what you picked using 
-                <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=-0.2e%5e-((x-0.25)%5e2+(y-0.25)%5e2)+0.3e%5e-(3(x-1.2)%5e2+y%5e2)-0.5e%5e-((x-2.6)%5e2+y%5e2)-0.5e%5e-((x-2.4)%5e2+(y+2.5)%5e2)-e%5e-((x+3)%5e2+3(y-1.85)%5e2)+0.17(2*(1-x)%5e2*exp(-(x%5e2)-(y+1)%5e2)-7*(x/5-x%5e3-y%5e5)*exp(-x%5e2-y%5e2)-1/3*exp(-(x+1)%5e2-y%5e2))-0.95e%5e-((x-2.6)%5e2+(y-2.8)%5e2);visible=true;umin=-1.8;umax=2.3;vmin=-2.15;vmax=2.85;grid=30;format=normal;alpha=-1;hidemyedges=false;constcol=rgb(232,225,189);view=0;contourcolor=rgb(255,0,0);fixdomain=false;contourplot=true;showcontourplot=true;firstvalue=-1;stepsize=0.1;numlevels=20;list=-1,-0.9,-0.8,-0.7,-0.6,-0.5,-0.4,-0.3,-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9;uselist=false;xnum=46;ynum=46;show2d=false;hidesurface=false;hidelabels=false;showprojections=false;surfacecontours=true;projectioncolor=rgba(51,153,0,1);showxygrid=false;showxygridonbox=true;showconstraint=true;constrainttype=2;constraintdata=1;constraintinxyplane=false;showgrads2d=true;showgrads3d=false;width=2;dropcurtain=false&type=window;hsrmode=3;nomidpts=true;anaglyph=-1;center=-10.583323720411897,-7.886889632137683,5.371473816323004,1;focus=0,0,0,1;up=0.39200790884163983,0.09702727686653143,0.9148308624819509,1;transparent=true;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=false;faceson=true;showbox=false;showaxes=true;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=true;gridcolor=rgb(128,128,128);xmin=-1.8;xmax=2.3;ymin=-2.15;ymax=2.85;zmin=-2;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=22;xscalefactor=1;yscalefactor=1;zscalefactor=1;showtraceplane=true;tracemode=0;keep2d=false;zoom=1.940267"
-                visual="this link".
+                <!-- <url href="https://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=-0.2e%5e-((x-0.25)%5e2+(y-0.25)%5e2)+0.3e%5e-(3(x-1.2)%5e2+y%5e2)-0.5e%5e-((x-2.6)%5e2+y%5e2)-0.5e%5e-((x-2.4)%5e2+(y+2.5)%5e2)-e%5e-((x+3)%5e2+3(y-1.85)%5e2)+0.17(2*(1-x)%5e2*exp(-(x%5e2)-(y+1)%5e2)-7*(x/5-x%5e3-y%5e5)*exp(-x%5e2-y%5e2)-1/3*exp(-(x+1)%5e2-y%5e2))-0.95e%5e-((x-2.6)%5e2+(y-2.8)%5e2);visible=true;umin=-1.8;umax=2.3;vmin=-2.15;vmax=2.85;grid=30;format=normal;alpha=-1;hidemyedges=false;constcol=rgb(232,225,189);view=0;contourcolor=rgb(255,0,0);fixdomain=false;contourplot=true;showcontourplot=true;firstvalue=-1;stepsize=0.1;numlevels=20;list=-1,-0.9,-0.8,-0.7,-0.6,-0.5,-0.4,-0.3,-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9;uselist=false;xnum=46;ynum=46;show2d=false;hidesurface=false;hidelabels=false;showprojections=false;surfacecontours=true;projectioncolor=rgba(51,153,0,1);showxygrid=false;showxygridonbox=true;showconstraint=true;constrainttype=2;constraintdata=1;constraintinxyplane=false;showgrads2d=true;showgrads3d=false;width=2;dropcurtain=false&type=window;hsrmode=3;nomidpts=true;anaglyph=-1;center=-10.583323720411897,-7.886889632137683,5.371473816323004,1;focus=0,0,0,1;up=0.39200790884163983,0.09702727686653143,0.9148308624819509,1;transparent=true;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=false;faceson=true;showbox=false;showaxes=true;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=true;gridcolor=rgb(128,128,128);xmin=-1.8;xmax=2.3;ymin=-2.15;ymax=2.85;zmin=-2;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=22;xscalefactor=1;yscalefactor=1;zscalefactor=1;showtraceplane=true;tracemode=0;keep2d=false;zoom=1.940267" -->
+                 <url href="https://bit.ly/4j90K1b" visual="this link"/>
             </p>
         </li>
 
@@ -158,30 +158,44 @@
 
         <li>
             <p>
-                Draw in (and label) a vector at one of these points to represent the direction of the gradient of f at the point.
-                Let’s consider the constraint curve to be a level curve of a second function of two variables.
-                If we call this function g, draw in (and label) any vector(s) that represent(s) the direction of the gradient of g at this same point.
-                What do you notice about the relationship between the gradient vectors of f and g here? (You should draw something that looks like <url href="{">https</url>://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=-0.2e
+                Draw in (and label) a vector at one of these points to represent the direction 
+                of the gradient of f at the point.
+                Let’s consider the constraint curve to be a level curve of a second function of 
+                two variables.
+                If we call this function g, draw in (and label) any vector(s) that represent(s) 
+                the direction of the gradient of g at this same point.
+                What do you notice about the relationship between the gradient vectors of f 
+                and g here? (You should draw something that looks like 
+                <url href="https://bit.ly/4djhxgV" visual="this" />
             </p>
         </li>
 
         <li>
             <p>
-                Let’s use what we just learned to determine the absolute maximum and minimum values of <m>f(x,y)=2x^{3}+y^{4}</m>, subject to the constraint of the unit circle (<m>x^{2}+y^{2}=1</m>).
-                Start by drawing in all the Lagrange points on the contour plot of <m>f</m> below/next page in Figure fig:plot2.
+                Let's use what we just learned to determine the absolute maximum and minimum values
+                 of <m>f(x,y)=2x^{3}+y^{4}</m>, subject to the constraint of the unit circle
+                  (<m>x^{2}+y^{2}=1</m>).
+                Start by drawing in all the Lagrange points on the contour plot of <m>f</m> 
+                in the figure below.
                 Approximate the coordinates and function values at each of these points.
-                Then state the absolute maximum and absolute minimum of <m>f</m> subject to this constraint indicating where each occurs.
+                Then state the absolute maximum and absolute minimum of <m>f</m> subject to this 
+                constraint indicating where each occurs.
             </p>
         </li>
 
         <li>
             <p>
-                Change the <m>b</m> value to draw the path one would travel on our surface subject to the constraint of the unit circle using <url href="{">https</url>://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=2x
-            </p>
-
+                Change the <m>b</m> value to draw the path one would travel on our surface
+                 subject to the constraint of the unit circle using <alert><red> Need to add the following link commented but it had an
+                    issue </alert> </red>
+            <!-- </p>  https://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=-0.2e%5e-((x-0.25)%5e2+(y-0.25)%5e2)+0.3e%5e-(3(x-1.2)%5e2+y%5e2)-0.5e%5e-((x-2.6)%5e2+y%5e2)-0.5e%5e-((x-2.4)%5e2+(y+2.5)%5e2)-e%5e-((x+3)%5e2+3(y-1.85)%5e2)+0.17(2*(1-x)%5e2*exp(-(x%5e2)-(y+1)%5e2)-7*(x/5-x%5e3-y%5e5)*exp(-x%5e2-y%5e2)-1/3*exp(-(x+1)%5e2-y%5e2))-0.95e%5e-((x-2.6)%5e2+(y-2.8)%5e2);visible=true;umin=-1.8;umax=2.3;vmin=-2.15;vmax=2.85;grid=30;format=normal;alpha=-1;hidemyedges=false;constcol=rgb(232,225,189);view=0;contourcolor=rgb(255,0,0);fixdomain=false;contourplot=true;showcontourplot=true;firstvalue=-1;stepsize=0.1;numlevels=20;list=-1,-0.9,-0.8,-0.7,-0.6,-0.5,-0.4,-0.3,-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9;uselist=false;xnum=46;ynum=46;show2d=true;hidesurface=false;hidelabels=false;showprojections=false;surfacecontours=true;projectioncolor=rgba(51,153,0,1);showxygrid=false;showxygridonbox=true;showconstraint=true;constrainttype=2;constraintdata=1;constraintinxyplane=false;showgrads2d=true;showgrads3d=false;width=2;dropcurtain=false&type=window;hsrmode=3;nomidpts=true;anaglyph=-1;center=0,0,14.25,1;focus=0,0,0,1;up=0,2,0,1;transparent=true;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=false;faceson=true;showbox=false;showaxes=true;showticks=false;perspective=false;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=false;gridcolor=rgb(128,128,128);xmin=-1.8;xmax=2.3;ymin=-2.15;ymax=2.85;zmin=-2;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=22;xscalefactor=1;yscalefactor=1;zscalefactor=1;showtraceplane=true;tracemode=0;keep2d=false;zoom=1.033333  -->
+The level curves visualized in 
             <image source="ContourMapLagrangeActivityPt2">
+                <caption>  Contour map for $f(x,y)=2x^{3}+y^{4}$, subject to the constraint 
+            of the unit circle (<m>x^{2}+y^{2}=1</m>)
+                </caption>
             </image>
-            Contour map for $f(x,y)=2x^{3}+y^{4}$, subject to the constraint of the unit circle ($x^{2}+y^{2}=1$)  fig:plot2
+            
         </li>
     </ol>   
 </section>
