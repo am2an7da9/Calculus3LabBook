@@ -4,153 +4,124 @@
 <p>
 </p>
 
-<section>
+
     <title>Problem Set</title>
 
-    <p>
-        The goal of this activity is to help us understand how we develop the Lagrange multiplier equation <m>\nabla f(x,y)=\lambda \nabla g(x,y)</m> and to visualize finding extreama on a surface subject to a constraint.
-    </p>
+<figure>
+  <caption>New Zealand Landscape,
+  <url href="https://commons.wikimedia.org/wiki/File:NZ_Landscape_from_the_van.jpg" visual="commons.wikimedia.org/wiki/File:NZ_Landscape_from_the_van.jpg"><c>commons.wikimedia.org</c></url>,
+  CC-BY-SA-2.0</caption>
+  <image source="ContourMapLagrangeActivity.JPG" width="80%" />
+</figure>
 
-    <ol>
-        <li>
-            <p>
-                Find the relative extreama of the function <m>f (x, y) = x^{2} + y^{2} + 2x - 2y + 1</m> subject to the constraint, <m>g(x, y) = x^{2} + y^{2} = 2</m> subject to the given constraint, showing all work.
-            </p>
-        </li>
+<figure>
+  <caption>Solution to a differential equation</caption>
+  <image width="60%">
+    <prefigure xmlns="https://prefigure.org" label="prefigure-diffeq">
+    <diagram dimensions="(300,300)" margins="5">
+    <definition>
+      f(t,y) = (y[1], -pi*y[0]-0.3*y[1])
+    </definition>
+    <coordinates bbox="[-1,-3,6,3]">
+    <grid-axes xlabel="t" />
+    <de-solve function="f" t0="0" t1="bbox[2]" y0="(0,2)" name="oscillator" N="200" />
+    <plot-de-solution at="x" solution="oscillator" axes="(t,y0)" />
+    <plot-de-solution at="xprime" solution="oscillator" axes="(t,y1)" stroke="red" tactile-dash="9 9" />
+    <legend at="legend" anchor="(bbox[2], bbox[3])" alignment="sw" scale="0.9" opacity="0.5">
+    <item ref="x"><m>x(t)</m></item>
+    <item ref="xprime"><m>x'(t)</m></item>
+    </legend>
+    </coordinates>
+    </diagram>
+    </prefigure>
+  </image>
+</figure>
 
-        <li>
-            <p>
-                Graph the function from above in CalcPlot3D (<alert>see and create its contour plot and attach it to get credit for this problem</alert>)using the following steps:
-                <ul>
-                    <li>
-                        <p>
-                            Enter <m>x^{2} + y^{2} + 2x - 2y + 1</m> in the first function.
-                            Zoom out once so the <m>x</m> and <m>y</m>values range from <m>-4</m> to <m>4</m>.
-                        </p>
-                    </li>
+<figure xml:id="figure-tikz-cone3D">
+          <caption>TikZ Cone Drawing</caption>
+          <image xml:id="tikz-cone" width="70%">
+<latex-image>
 
-                    <li>
-                        <p>
-                            To obtain the contour plot, click on the contour plot button below the function definition.
-                            (See the icon shown in part 4 above.)
-                        </p>
-                    </li>
+\begin{tikzpicture}[join=round]
+\tikzstyle{conefill} = [fill=blue!20,fill opacity=0.8]
+\tikzstyle{ann} = [fill=white,font=\footnotesize,inner sep=1pt]
+\tikzstyle{ghostfill} = [fill=white]
+\tikzstyle{ghostdraw} = [draw=black!50]
+\filldraw[conefill](-.775,1.922)--(-1.162,.283)--(-.274,.5)
+--(-.183,2.067)--cycle;
+\filldraw[conefill](-.183,2.067)--(-.274,.5)--(.775,.424)
+--(.516,2.016)--cycle;
+\filldraw[conefill](.516,2.016)--(.775,.424)--(1.369,.1)
+--(.913,1.8)--cycle;
+\filldraw[conefill](-.913,1.667)--(-1.369,-.1)--(-1.162,.283)
+--(-.775,1.922)--cycle;
+\draw(1.461,.107)--(1.734,.127);
+\draw[arrows=&lt;-&gt;](1.643,1.853)--(1.643,.12);
+\filldraw[conefill](.913,1.8)--(1.369,.1)--(1.162,-.283)
+--(.775,1.545)--cycle;
+\draw[arrows=-&gt;,line width=.4pt](.274,-.5)--(0,0)--(0,2.86);
+\draw[arrows=-,line width=.4pt](0,0)--(-1.369,-.1);
+\draw[arrows=-&gt;,line width=.4pt](-1.369,-.1)--(-2.1,-.153);
+\filldraw[conefill](-.516,1.45)--(-.775,-.424)--(-1.369,-.1)
+--(-.913,1.667)--cycle;
+\draw(-1.369,.073)--(-1.369,2.76);
+\draw(1.004,1.807)--(1.734,1.86);
+\filldraw[conefill](.775,1.545)--(1.162,-.283)--(.274,-.5)
+--(.183,1.4)--cycle;
+\draw[arrows=&lt;-&gt;](0,2.34)--(-.913,2.273);
+\draw(-.913,1.84)--(-.913,2.447);
+\draw[arrows=&lt;-&gt;](0,2.687)--(-1.369,2.587);
+\filldraw[conefill](.183,1.4)--(.274,-.5)--(-.775,-.424)
+--(-.516,1.45)--cycle;
+\draw[arrows=&lt;-,line width=.4pt](.42,-.767)--(.274,-.5);
+\node[ann] at (-.456,2.307) {$r_0$};
+\node[ann] at (-.685,2.637) {$r_1$};
+\node[ann] at (1.643,.987) {$h$};
+\path (.42,-.767) node[below] {$x$}
+(0,2.86) node[above] {$y$}
+(-2.1,-.153) node[left] {$z$};
+% Second version of the cone
+\begin{scope}[xshift=3.5cm]
+\filldraw[ghostdraw,ghostfill](-.775,1.922)--(-1.162,.283)--(-.274,.5)
+--(-.183,2.067)--cycle;
+\filldraw[ghostdraw,ghostfill](-.183,2.067)--(-.274,.5)--(.775,.424)
+--(.516,2.016)--cycle;
+\filldraw[ghostdraw,ghostfill](.516,2.016)--(.775,.424)--(1.369,.1)
+--(.913,1.8)--cycle;
+\filldraw[ghostdraw,ghostfill](-.913,1.667)--(-1.369,-.1)--(-1.162,.283)
+--(-.775,1.922)--cycle;
+\filldraw[ghostdraw,ghostfill](.913,1.8)--(1.369,.1)--(1.162,-.283)
+--(.775,1.545)--cycle;
+\filldraw[ghostdraw,ghostfill](-.516,1.45)--(-.775,-.424)--(-1.369,-.1)
+--(-.913,1.667)--cycle;
+\filldraw[ghostdraw,ghostfill](.775,1.545)--(1.162,-.283)--(.274,-.5)
+--(.183,1.4)--cycle;
+\filldraw[fill=red,fill opacity=0.5](-.516,1.45)--(-.775,-.424)--(.274,-.5)
+--(.183,1.4)--cycle;
+\fill(-.775,-.424) circle (2pt);
+\fill(.274,-.5) circle (2pt);
+\fill(-.516,1.45) circle (2pt);
+\fill(.183,1.4) circle (2pt);
+\path[font=\footnotesize]
+(.913,1.8) node[right] {$i\hbox{$=$}0$}
+(1.369,.1) node[right] {$i\hbox{$=$}1$};
+\path[font=\footnotesize]
+(-.645,.513) node[left] {$j$}
+(.228,.45) node[right] {$j\hbox{$+$}1$};
+\draw (-.209,.482)+(-60:.25) [yscale=1.3,-&gt;] arc(-60:240:.25);
+\fill[black,font=\footnotesize]
+(-.516,1.45) node [above] {$P_{00}$}
+(-.775,-.424) node [below] {$P_{10}$}
+(.183,1.4) node [above] {$P_{01}$}
+(.274,-.5) node [below] {$P_{11}$};
+\end{scope}
+\end{tikzpicture}
+</latex-image>
+          </image>
+        </figure>
 
-                    <li>
-                        <p>
-                            On the Contour Plot Settings dialog, enter <alert>First level value: <m>-1</m>, Step size: 1, and Number of contours: 10.</alert>
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            To display the constraint curve, select the third option on the <alert>Add Constraint Curve</alert> menu.
-                            This option is: <alert>Circle centered at origin</alert>.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <alert>Enter 2</alert> in the box representing <m>\mathbf{R}^{2}</m> and use the chevrons to go back to the main level of <alert>Contour Plot Settings</alert>.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Now click on the <alert>Create Plot</alert> button in this dialog, and you should see the contour plot and the constraint curve appear.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            By default, the gradient vectors of <m>f</m> and <m>g</m> are displayed, <em> <m>\nabla f</m> is red</em> and <em> <m>\nabla g</m> is blue</em>.
-                            To watch them vary along the constraint curve, use the scrollbar located at the bottom of the 3D plot.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Note: we can visually verify that these gradient vectors are either parallel to each other or <em> <m>\nabla f=0</m> </em> when we obtain a relative extremum of <m>f</m> subject to the constraint, in both cases satisfying the Lagrange Multiplier equation.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            Now click on the contour plot in the large 3D plot window.
-                            The surface above will appear.
-                            Use the right arrow key to rotate the 3D graph to the right about the z-axis until you see a clear view of the relative extrema.
-                            Then use the scrollbar again to move along the trace of the constraint curve on the surface to verify the relative extrema we found earlier.
-                        </p>
-                    </li>
-                </ul>
-            </p>
-        </li>
-
-        <li>
-            <p>
-                Click on the contour plot and print a view of the surface (along with the contours and the constraint curve projected on the surface) that makes it possible to see both extrema clearly.
-                Add a screenshot or include a URL of the graph.
-                Remember you can go to file - to save the image as a png or to encode the view in a URL.
-            </p>
-        </li>
-
-        <li>
-            <p>
-                Let <m>z=f(x,y)</m> represent the elevations in a mountainous area represented by the contour plot below:
-                <image source="ContourMapLagrangeActivity">
-                </image>
-            </p>
-
-            <p>
-                Suppose you are taking a hike along a circular route.
-                On the contour plot, mark all of the relative high points and low points you encountered along your hike.
-                Then indicate with an “x” the absolute highest and lowest elevations that you encountered during your hike.
-                Remember to stay on your circular hiking trail.
-                Compare what you picked using <url href="{">https</url>://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=-0.2e
-            </p>
-        </li>
-
-        <li>
-            <p>
-                Now look at where the high and low points of our functions occur using the contour plot above and the visualization in CalcPlot3D.
-                What seems to be the relationship between the constraint curve and the contours of the function f at these low and high points? (It is clearer at two of the points than the others.) Why does this make sense?
-            </p>
-        </li>
-
-        <li>
-            <p>
-                Could we identify all of these points just by looking at the constraint curve on the contour plot as if it were a trail map(without having seen the 3D surface)? If so, how? What would we be looking for?
-            </p>
-        </li>
-
-        <li>
-            <p>
-                Draw in (and label) a vector at one of these points to represent the direction of the gradient of f at the point.
-                Let’s consider the constraint curve to be a level curve of a second function of two variables.
-                If we call this function g, draw in (and label) any vector(s) that represent(s) the direction of the gradient of g at this same point.
-                What do you notice about the relationship between the gradient vectors of f and g here? (You should draw something that looks like <url href="{">https</url>://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=-0.2e
-            </p>
-        </li>
-
-        <li>
-            <p>
-                Let’s use what we just learned to determine the absolute maximum and minimum values of <m>f(x,y)=2x^{3}+y^{4}</m>, subject to the constraint of the unit circle (<m>x^{2}+y^{2}=1</m>).
-                Start by drawing in all the Lagrange points on the contour plot of <m>f</m> below/next page in Figure fig:plot2.
-                Approximate the coordinates and function values at each of these points.
-                Then state the absolute maximum and absolute minimum of <m>f</m> subject to this constraint indicating where each occurs.
-            </p>
-        </li>
-
-        <li>
-            <p>
-                Change the <m>b</m> value to draw the path one would travel on our surface subject to the constraint of the unit circle using <url href="{">https</url>://c3d.libretexts.org/CalcPlot3D/index.html?type=z;z=2x
-            </p>
-
-            <image source="ContourMapLagrangeActivityPt2">
-            </image>
-            Contour map for $f(x,y)=2x^{3}+y^{4}$, subject to the constraint of the unit circle ($x^{2}+y^{2}=1$)  fig:plot2
-        </li>
-    </ol>
-</section>
-
+        <figure xml:id="figure-intersecting-planes">
+  <caption>Intersection of two planes (minimal embedding)</caption>
+  <interactive xml:id="calcplot3d-intersection-planes" calcplot3d="type=implicit;equation=2x-y+z~0;cubes=16;visible=true;xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-2;zmax=2;alpha=-1;format=constant;constcol=rgb(61,133,198)&amp;type=parametric;parametric=2;x=-(u+v)/2;y=(u-v)/2;z=v;visible=true;umin=-3;umax=3;usteps=30;vmin=-2;vmax=2;vsteps=15;alpha=193;format=constant;constcol=rgb(255,161,114)&amp;type=text;text=x%20%2B%20y%20%2B%20z%20~%200;visible=true;point=(.5,-2.5,2.1);color=rgb(0,0,0);font=Times%20New%20Roman;fontsize=14pt;bold=false;italic=false;fontmath=true;align=Upper-right&amp;type=text;text=2x%20-%20y%20%2B%20z%20~%200;visible=true;point=(2,2.2,-1.25);color=rgb(0,0,0);font=Times%20New%20Roman;fontsize=14pt;bold=false;italic=false;fontmath=true;align=Upper-right&amp;type=window;hsrmode=0;anaglyph=-1;center=7.006292692220367,5.09036960455127,4.999999999999999,1;focus=0,0,0,1;up=-0.3290568564833397,-0.23907380036690282,0.9135454576426009,1;transparent=true;alpha=140;edgeson=false;faceson=true;showbox=false;showaxes=true;showticks=true;perspective=true;centerxpercent=0.5;centerypercent=0.5;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=false;gridcolor=rgb(128,128,128);xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-2;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=4;zoom=0.655294;xscalefactor=1;yscalefactor=1;zscalefactor=1" variant="minimal" width="80%" />
+</figure>
 </section>
